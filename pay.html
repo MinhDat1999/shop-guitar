@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Pay</title>
+  </head>
+  <body>
+    <div class="model">
+      <div class="model-inner">
+        <div class="model-header">
+          <p>Order confirmation</p>
+          <i class="fa-solid fa-xmark closeOder"></i>
+        </div>
+        <div class="model-body"></div>
+        <div class="model-footer">
+          <button>OK</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <div class="nav_pc">
+          <div class="menu-mobile">
+            <i class="fa-solid fa-xmark close"></i>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/shop.html">Guitar</a></li>
+              <li><a href="/ukulele.html">Ukuleles</a></li>
+              <li><a href="/articles.html">Articles </a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="list-cart">
+            <div class="box-close"><i class="fa-solid fa-xmark close"></i></div>
+
+            <div class="list-cart-header"><h2>Your Cart</h2></div>
+            <div class="list-cart-body"></div>
+            <div class="list-cart-footer">
+              <div class="list-cart-footer-total">
+                <p>Total: <span class="countprice">0</span> $</p>
+              </div>
+
+              <a class="btn-add-bill" href="/pay.html">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="logo">
+            <img
+              src="https://cdn.dribbble.com/users/230124/screenshots/15645740/media/5712571f79a059e26b5e4dd286598452.jpg?compress=1&resize=400x300"
+              alt="logo"
+            />
+            <h1 class="logo-title">M_D</h1>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/shop.html">Guitar</a></li>
+              <li><a href="/ukulele.html">Ukuleles</a></li>
+              <li><a href="/articles.html">Articles </a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <div class="cart-value"><span>0</span></div>
+
+            <i class="btn-cart fa-solid fa-bag-shopping"></i>
+
+            <i class="fa-solid fa-bars bar-icon"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="pay-body">
+      <div class="pay-title">
+        <h1>Payment page</h1>
+        <hr />
+      </div>
+      <div class="grid wide pay-body-grid">
+        <div class="row">
+          <div class="pay-infor col l-6 m-12 c-12">
+            <table class="tb-dk">
+              <tr>
+                <th colspan="2"><h2>Your information</h2></th>
+              </tr>
+              <tr>
+                <td><p>Name</p></td>
+                <td><p>Phone</p></td>
+              </tr>
+              <tr>
+                <td style="padding-right: 10px"><input type="text" /></td>
+                <td><input type="number" /></td>
+              </tr>
+              <tr>
+                <td><p>Country</p></td>
+                <td><p>District</p></td>
+              </tr>
+              <tr>
+                <td style="padding-right: 10px"><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p>Wards</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="text" /></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p>Address</p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="text" /></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div>
+                    <button class="btn-pay">Pay</button>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="pay-cart col l-6 m-12 c-12">
+            <div class="desc-pay">
+              <div class="desc-pay-title">
+                <p>Oder Summary</p>
+              </div>
+              <div class="desc-pay-item subtoal">
+                <p>Subtotal</p>
+                <p class="subtoal-value">5,279,000</p>
+              </div>
+              <div class="desc-pay-item">
+                <p>Delivery/Shipping</p>
+                <p>Free</p>
+              </div>
+              <div class="desc-pay-total desc-pay-item">
+                <p>Total</p>
+                <p class="final-total-value">5,2799,000</p>
+              </div>
+            </div>
+            <table class="tb-product">
+              <tbody class="tb-product-body"></tbody>
+            </table>
+            <div class="pay-cart-total"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="grid footer wide">
+        <div class="row">
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Company</h4>
+              <ul>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">Our Servies</a>
+                </li>
+                <li>
+                  <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="">Test</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Get Help</h4>
+              <ul>
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+                <li>
+                  <a href="">Shiping</a>
+                </li>
+                <li>
+                  <a href="">Returns</a>
+                </li>
+                <li>
+                  <a href="">Oder Status</a>
+                </li>
+                <li>
+                  <a href="">Payment Options</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Online Shop</h4>
+              <ul>
+                <li>
+                  <a href="">Watch</a>
+                </li>
+                <li>
+                  <a href="">Bag</a>
+                </li>
+                <li>
+                  <a href="">Shoes</a>
+                </li>
+                <li>
+                  <a href="">Dress</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Follow Us</h4>
+              <div class="footer-item-content-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="pay.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

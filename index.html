@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav_pc">
+          <div class="menu-mobile">
+            <i class="fa-solid fa-xmark close"></i>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/shop.html">Guitar</a></li>
+              <li><a href="/ukulele.html">Ukuleles</a></li>
+              <li><a href="/articles.html">Articles </a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="list-cart">
+            <div class="box-close"><i class="fa-solid fa-xmark close"></i></div>
+
+            <div class="list-cart-header"><h2>Your Cart</h2></div>
+            <div class="list-cart-body"></div>
+            <div class="list-cart-footer">
+              <div class="list-cart-footer-total">
+                <p>Total: <span class="countprice">0</span> $</p>
+              </div>
+
+              <a class="btn-add-bill" href="/pay.html">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="logo">
+            <img
+              src="https://cdn.dribbble.com/users/230124/screenshots/15645740/media/5712571f79a059e26b5e4dd286598452.jpg?compress=1&resize=400x300"
+              alt="logo"
+            />
+            <h1 class="logo-title">M_D</h1>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/shop.html">Guitar</a></li>
+              <li><a href="/ukulele.html">Ukuleles</a></li>
+              <li><a href="/articles.html">Articles </a></li>
+              <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="cart">
+            <div class="cart-value"><span>0</span></div>
+
+            <i class="btn-cart fa-solid fa-bag-shopping"></i>
+
+            <i class="fa-solid fa-bars bar-icon"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="banner-left">
+          <img src="img/rock-guitarist-19113213.jpg" alt="" />
+        </div>
+        <div class="banner-content">
+          <h3>HOT SALER</h3>
+          <h1><span>Best Price</span> This Year</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
+            aliquid optio repellat iste? Esse illo laborum excepturi! Nihil .
+          </p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="brand grid wide">
+        <div class="row brand-box">
+          <img src="img/logo/alvarez.jpg" alt="" class="col l-2 m-4 c-6" />
+          <img src="img/logo/epiphone.png" alt="" class="col l-2 m-4 c-6" />
+          <img src="img/logo/fender.jpg" alt="" class="col l-2 m-4 c-6" />
+          <img src="img/logo/gibson.png" alt="" class="col l-2 m-4 c-6" />
+          <img src="img/logo/morris.png" alt="" class="col l-2 m-4 c-6" />
+          <img src="img/logo/yamaha-w.jpg" alt="" class="col l-2 m-4 c-6" />
+        </div>
+      </section>
+      <section id="new">
+        <div class="row no-gutters">
+          <div class="new-item col l-4 m-12 c-12">
+            <img src="img/banner.png" alt="" />
+            <div class="details">
+              <h2>Extreme Rere Snekers</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur non perspiciatis, deserunt magnam, eveniet
+                aspernatur ipsa dolore dignissimos quos ullam neque? Unde nemo
+                quis quaerat quidem nobis. Sit, iusto omnis?
+              </p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="new-item col l-4 m-12 c-12">
+            <img
+              src="img/new/taylor-700-series-724ce-722ce-feature-1.jpg"
+              alt=""
+            />
+            <div class="details">
+              <h2>Extreme Rere Snekers</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur non perspiciatis, deserunt magnam, eveniet
+                aspernatur ipsa dolore dignissimos quos ullam neque? Unde nemo
+                quis quaerat quidem nobis. Sit, iusto omnis?
+              </p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="new-item col l-4 m-12 c-12">
+            <img src="img/new/guitar-talk_new.jpg" alt="" />
+            <div class="details">
+              <h2>Extreme Rere Snekers</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequuntur non perspiciatis, deserunt magnam, eveniet
+                aspernatur ipsa dolore dignissimos quos ullam neque? Unde nemo
+                quis quaerat quidem nobis. Sit, iusto omnis?
+              </p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="featured">
+        <div class="featured-desc">
+          <h1>Hot Products</h1>
+
+          <hr />
+          <p>Here you can check out our new with fair price on M_D</p>
+        </div>
+        <div class="row product">
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/ABT60CE-8BK_Front-3_4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Alvarez MD20</h3>
+            <h4 class="product-price">92000<span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/AGA95CEARSHB-carousel.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Moriss 0245</h3>
+            <h4 class="product-price">900<span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/DY70CE-Left-3-4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Yamaha L22</h3>
+            <h4 class="product-price">2000<span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/DY1TS-Left-3-4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Morris W60</h3>
+            <h4 class="product-price">500<span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="sale">
+        <div class="sale-desc">
+          <h4>MID SEASON'S SALE</h4>
+          <h1>
+            Auton Collection <br />
+            UP TO 20% OFF
+          </h1>
+          <button>Shop Now</button>
+        </div>
+      </section>
+      <section id="featured">
+        <div class="featured-desc">
+          <h1>Discount Products</h1>
+          <hr />
+          <p>Here you can check out our new with fair price on M_D</p>
+        </div>
+        <div class="row product">
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/ABT60CE-8BK_Front-3_4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Fender A30</h3>
+            <h4 class="product-price">920 <span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/AGA95CEARSHB-carousel.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Alvares AC50</h3>
+            <h4 class="product-price">2000 <span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/DY70CE-Left-3-4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Yamaha FG303</h3>
+            <h4 class="product-price">2500 <span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+          <div class="product-item col l-3 m-6 c-12 all">
+            <img src="img/newguittar/DY1TS-Left-3-4.png" alt="" />
+            <div class="product-start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="product-name">Epiphone M22</h3>
+            <h4 class="product-price">999 <span>$</span></h4>
+            <button class="btn-buynow">Buy Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="grid footer wide">
+        <div class="row">
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Company</h4>
+              <ul>
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">Our Servies</a>
+                </li>
+                <li>
+                  <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="">Test</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Get Help</h4>
+              <ul>
+                <li>
+                  <a href="">FAQ</a>
+                </li>
+                <li>
+                  <a href="">Shiping</a>
+                </li>
+                <li>
+                  <a href="">Returns</a>
+                </li>
+                <li>
+                  <a href="">Oder Status</a>
+                </li>
+                <li>
+                  <a href="">Payment Options</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Online Shop</h4>
+              <ul>
+                <li>
+                  <a href="">Watch</a>
+                </li>
+                <li>
+                  <a href="">Bag</a>
+                </li>
+                <li>
+                  <a href="">Shoes</a>
+                </li>
+                <li>
+                  <a href="">Dress</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-12 footer-item">
+            <div class="footer-item-content">
+              <h4>Follow Us</h4>
+              <div class="footer-item-content-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
