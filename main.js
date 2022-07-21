@@ -54,8 +54,9 @@ let Total = 0;
 let quatityProduct = 0;
 
 BtnAddCartEl.forEach((item, index) => {
-  let checkProduct = true;
+  
   item.addEventListener("click", (e) => {
+    let checkProduct = true;
     const itemAdd = e.target.parentElement;
     const NameProduct = itemAdd.querySelector(".product-name").innerText;
     const PriceProduct = itemAdd.querySelector(".product-price").innerText;
@@ -72,7 +73,7 @@ BtnAddCartEl.forEach((item, index) => {
       qutity: 1,
     };
 
-    ListProduct.map((item) => {
+    ListProduct.map((item,index) => {
       if (item.id == infoProduct.id) {
         quatity = item.qutity;
         quatity++;
