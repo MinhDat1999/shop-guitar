@@ -21,7 +21,11 @@ fromTypepay.forEach((item) => {
 total.innerText = `${data[1]}$`;
 findtotal.innerText = `${data[1]}$`;
 btnOkEl.addEventListener("click", () => {
+  localStorage.removeItem("Bill");
+  localStorage.removeItem("Product");
+  addtoCart1();
   alert("Order Sucess");
+  window.location.href = "/";
 
   return;
 });
