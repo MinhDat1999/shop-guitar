@@ -77,6 +77,8 @@ BtnAddCartEl.forEach((item, index) => {
         quatity = item.qutity;
         quatity++;
         item.qutity = quatity;
+        ListProduct[index].price =
+          ListProduct[index].price * ListProduct[index].qutity;
         checkProduct = false;
       }
     });
